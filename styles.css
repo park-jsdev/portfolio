@@ -194,6 +194,12 @@
     margin: 0 auto;
     margin-bottom: 6rem;
   }
+
+  /* Hide all projects initially in each section */
+  .projects-grid > a:nth-child(n+7) {
+    display: none;
+  }
+
   
   @media (max-width: 30.625em) {
     .projects-section {
